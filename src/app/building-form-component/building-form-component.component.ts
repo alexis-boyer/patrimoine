@@ -10,7 +10,8 @@ export class BuildingFormComponentComponent implements OnInit {
 
   constructor() { }
 
-  model = new Building(1, 'My House', '21st baker street', 'Very cosy house');
+  model:Building = new Building(1, 'My Second House', '21st baker street', 
+      'Very cosy house');
 
   submitted = false;
 
